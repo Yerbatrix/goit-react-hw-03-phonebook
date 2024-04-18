@@ -1,0 +1,37 @@
+.container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container form label input[type='text'],
+.container form label input[type='tel'] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container form label input[type='submit'] {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container form label input[type='submit']:hover {
+  background-color: #0056b3;
+}
